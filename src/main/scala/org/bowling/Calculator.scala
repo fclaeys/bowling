@@ -9,7 +9,8 @@ package org.bowling
  */
 class Calculator {
   def computeScoreOf(rolls : String) :Int = {
-    9
+    val firstCharacter = rolls.charAt(0)
+    firstCharacter.asDigit
   }
 
 }

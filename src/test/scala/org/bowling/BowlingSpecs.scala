@@ -10,6 +10,10 @@ class BowlingSpecs extends Specification{
       calculator.computeScoreOf("9-") must beEqualTo(9)
     }
     
+    "only on Strike with another value" in {
+      calculator.computeScoreOf("4-") must beEqualTo(4)
+    }
+    
   }
   
 }
