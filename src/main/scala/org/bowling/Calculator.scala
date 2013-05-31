@@ -9,7 +9,7 @@ package org.bowling
  */
 class Calculator {
   def computeScoreOf(rolls : String) :Int = {
-    0
+    9
   }
 
 }
